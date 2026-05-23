@@ -1,0 +1,15 @@
+[project]
+name = "data-lake-aws-example"
+version = "0.1.0"
+description = "Mini Data Lake serverless na AWS com NYC Taxi, Terraform e Python."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "boto3>=1.39.0",
+]
+
+[dependency-groups]
+dev = []
+
+[tool.uv]
+package = false

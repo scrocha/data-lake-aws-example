@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.venv/
+.pytest_cache/
+*.pyc
+
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+
+outputs.json
+athena-results/
