@@ -159,10 +159,3 @@ As tabelas são particionadas por `year` e `month`, o que ajuda a demonstrar red
 cd terraform
 terraform destroy -auto-approve
 ```
-
-## Próximos passos para o seminário
-
-- usar apenas `2024-01` se quiser a demo mais rápida
-- usar `2024-01`, `2024-02` e `2024-03` se quiser mostrar melhor particionamento temporal
-- abrir o Glue Data Catalog durante a apresentação para mostrar as tabelas `raw` e `processed`
-- comparar uma query com filtro de partição e outra sem filtro no Athena
